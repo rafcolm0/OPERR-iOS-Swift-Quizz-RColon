@@ -15,6 +15,7 @@
 		51E3B87221C5B32A00D7A2B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51E3B87021C5B32A00D7A2B9 /* LaunchScreen.storyboard */; };
 		51E3B87D21C5B32A00D7A2B9 /* OPERR_iOS_Swift_Quizz_RColonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E3B87C21C5B32A00D7A2B9 /* OPERR_iOS_Swift_Quizz_RColonTests.swift */; };
 		51E3B88821C5B32A00D7A2B9 /* OPERR_iOS_Swift_Quizz_RColonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E3B88721C5B32A00D7A2B9 /* OPERR_iOS_Swift_Quizz_RColonUITests.swift */; };
+		51E3B89621C5B57D00D7A2B9 /* MainUICollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E3B89521C5B57D00D7A2B9 /* MainUICollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		51E3B88321C5B32A00D7A2B9 /* OPERR-iOS-Swift-Quizz-RColonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OPERR-iOS-Swift-Quizz-RColonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51E3B88721C5B32A00D7A2B9 /* OPERR_iOS_Swift_Quizz_RColonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OPERR_iOS_Swift_Quizz_RColonUITests.swift; sourceTree = "<group>"; };
 		51E3B88921C5B32A00D7A2B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51E3B89521C5B57D00D7A2B9 /* MainUICollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUICollectionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				51E3B87021C5B32A00D7A2B9 /* LaunchScreen.storyboard */,
 				51E3B87321C5B32A00D7A2B9 /* Info.plist */,
 				51E3B86B21C5B32900D7A2B9 /* OPERR_iOS_Swift_Quizz_RColon.xcdatamodeld */,
+				51E3B89521C5B57D00D7A2B9 /* MainUICollectionCell.swift */,
 			);
 			path = "OPERR-iOS-Swift-Quizz-RColon";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51E3B89621C5B57D00D7A2B9 /* MainUICollectionCell.swift in Sources */,
 				51E3B86D21C5B32900D7A2B9 /* OPERR_iOS_Swift_Quizz_RColon.xcdatamodeld in Sources */,
 				51E3B86721C5B32900D7A2B9 /* ViewController.swift in Sources */,
 				51E3B86521C5B32900D7A2B9 /* AppDelegate.swift in Sources */,
