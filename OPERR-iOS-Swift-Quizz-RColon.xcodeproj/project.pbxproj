@@ -16,6 +16,8 @@
 		51E3B87D21C5B32A00D7A2B9 /* OPERR_iOS_Swift_Quizz_RColonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E3B87C21C5B32A00D7A2B9 /* OPERR_iOS_Swift_Quizz_RColonTests.swift */; };
 		51E3B88821C5B32A00D7A2B9 /* OPERR_iOS_Swift_Quizz_RColonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E3B88721C5B32A00D7A2B9 /* OPERR_iOS_Swift_Quizz_RColonUITests.swift */; };
 		51E3B89621C5B57D00D7A2B9 /* MainUICollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E3B89521C5B57D00D7A2B9 /* MainUICollectionCell.swift */; };
+		51E3B89821C5C8B500D7A2B9 /* CustomViewControllerAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E3B89721C5C8B500D7A2B9 /* CustomViewControllerAnimatedTransitioning.swift */; };
+		51E3B89A21C5D0BC00D7A2B9 /* FullScreenCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E3B89921C5D0BC00D7A2B9 /* FullScreenCardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		51E3B88721C5B32A00D7A2B9 /* OPERR_iOS_Swift_Quizz_RColonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OPERR_iOS_Swift_Quizz_RColonUITests.swift; sourceTree = "<group>"; };
 		51E3B88921C5B32A00D7A2B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51E3B89521C5B57D00D7A2B9 /* MainUICollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUICollectionCell.swift; sourceTree = "<group>"; };
+		51E3B89721C5C8B500D7A2B9 /* CustomViewControllerAnimatedTransitioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewControllerAnimatedTransitioning.swift; sourceTree = "<group>"; };
+		51E3B89921C5D0BC00D7A2B9 /* FullScreenCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				51E3B87321C5B32A00D7A2B9 /* Info.plist */,
 				51E3B86B21C5B32900D7A2B9 /* OPERR_iOS_Swift_Quizz_RColon.xcdatamodeld */,
 				51E3B89521C5B57D00D7A2B9 /* MainUICollectionCell.swift */,
+				51E3B89721C5C8B500D7A2B9 /* CustomViewControllerAnimatedTransitioning.swift */,
+				51E3B89921C5D0BC00D7A2B9 /* FullScreenCardViewController.swift */,
 			);
 			path = "OPERR-iOS-Swift-Quizz-RColon";
 			sourceTree = "<group>";
@@ -265,6 +271,8 @@
 				51E3B89621C5B57D00D7A2B9 /* MainUICollectionCell.swift in Sources */,
 				51E3B86D21C5B32900D7A2B9 /* OPERR_iOS_Swift_Quizz_RColon.xcdatamodeld in Sources */,
 				51E3B86721C5B32900D7A2B9 /* ViewController.swift in Sources */,
+				51E3B89A21C5D0BC00D7A2B9 /* FullScreenCardViewController.swift in Sources */,
+				51E3B89821C5C8B500D7A2B9 /* CustomViewControllerAnimatedTransitioning.swift in Sources */,
 				51E3B86521C5B32900D7A2B9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -75,11 +75,69 @@
                     </view>
                     <connections>
                         <outlet property="mainCollectionView" destination="Hx8-tD-cab" id="3uU-ah-Ady"/>
+                        <segue destination="c3U-81-cDn" kind="presentation" identifier="cardToView" id="RlU-aE-rGp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="140" y="132.68365817091455"/>
+        </scene>
+        <!--Full Screen Card View Controller-->
+        <scene sceneID="7wP-pH-PSv">
+            <objects>
+                <viewController id="c3U-81-cDn" customClass="FullScreenCardViewController" customModule="OPERR_iOS_Swift_Quizz_RColon" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OkI-aJ-G7W">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="311-S7-YFG">
+                                <rect key="frame" x="16" y="133.5" width="343" height="400"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="400" id="fCM-pQ-58s"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is the transitioned View Controller." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58R-RO-FNs">
+                                <rect key="frame" x="37.5" y="553.5" width="300" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="VVz-Bd-p0B"/>
+                                    <constraint firstAttribute="width" constant="300" id="vUT-9L-yPn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KOW-fb-cMb">
+                                <rect key="frame" x="167.5" y="40" width="40" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="0Re-vI-ZWd"/>
+                                    <constraint firstAttribute="width" constant="40" id="Kjw-yQ-cvg"/>
+                                </constraints>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="backBtnPressed:" destination="c3U-81-cDn" eventType="touchUpInside" id="ofu-DN-hmW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ZqU-Os-P1f" firstAttribute="trailing" secondItem="311-S7-YFG" secondAttribute="trailing" constant="16" id="BF1-s0-j66"/>
+                            <constraint firstItem="311-S7-YFG" firstAttribute="centerX" secondItem="OkI-aJ-G7W" secondAttribute="centerX" id="dm3-Dm-rs7"/>
+                            <constraint firstItem="KOW-fb-cMb" firstAttribute="top" secondItem="ZqU-Os-P1f" secondAttribute="top" constant="20" id="e1a-WX-5pu"/>
+                            <constraint firstItem="311-S7-YFG" firstAttribute="leading" secondItem="ZqU-Os-P1f" secondAttribute="leading" constant="16" id="gy3-b0-I7G"/>
+                            <constraint firstItem="58R-RO-FNs" firstAttribute="top" secondItem="311-S7-YFG" secondAttribute="bottom" constant="20" id="q3O-ee-IVy"/>
+                            <constraint firstItem="58R-RO-FNs" firstAttribute="centerX" secondItem="OkI-aJ-G7W" secondAttribute="centerX" id="qJI-Xp-qFL"/>
+                            <constraint firstItem="311-S7-YFG" firstAttribute="centerY" secondItem="OkI-aJ-G7W" secondAttribute="centerY" id="toW-bv-Nhe"/>
+                            <constraint firstItem="KOW-fb-cMb" firstAttribute="centerX" secondItem="OkI-aJ-G7W" secondAttribute="centerX" id="wtS-gF-NBA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZqU-Os-P1f"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="311-S7-YFG" id="kvb-k0-x1A"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P3N-Pv-elj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="986" y="133"/>
         </scene>
     </scenes>
 </document>

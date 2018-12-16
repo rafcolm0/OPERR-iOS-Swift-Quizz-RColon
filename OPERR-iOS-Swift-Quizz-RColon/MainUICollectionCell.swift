@@ -15,11 +15,11 @@ class MainUICollectionCell: UICollectionViewCell {
     override var isSelected: Bool {
         willSet(newValue) {
             if newValue {
-                UIView.animate(withDuration: 0.2, delay: 0, options: .curveEaseOut, animations: {
+                UIView.animate(withDuration: 0.4, delay: 0, options: .curveEaseOut, animations: {
                     self.transform = CGAffineTransform(scaleX: 0.7, y: 0.7)
                 }, completion: nil)
             } else {
-                UIView.animate(withDuration: 0.2, delay: 0, options: .curveEaseOut, animations: {
+                UIView.animate(withDuration: 0.4, delay: 0, options: .curveEaseOut, animations: {
                     self.transform = CGAffineTransform(scaleX: 1, y: 1)
                 }, completion: nil)
             }
