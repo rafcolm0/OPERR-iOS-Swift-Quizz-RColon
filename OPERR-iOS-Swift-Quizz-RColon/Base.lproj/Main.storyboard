@@ -96,13 +96,13 @@
                                     <constraint firstAttribute="height" constant="400" id="fCM-pQ-58s"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is the transitioned View Controller." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58R-RO-FNs">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is the transitioned View Controller." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58R-RO-FNs">
                                 <rect key="frame" x="37.5" y="553.5" width="300" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="VVz-Bd-p0B"/>
                                     <constraint firstAttribute="width" constant="300" id="vUT-9L-yPn"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -132,6 +132,7 @@
                         <viewLayoutGuide key="safeArea" id="ZqU-Os-P1f"/>
                     </view>
                     <connections>
+                        <outlet property="cardLabel" destination="58R-RO-FNs" id="QbO-Za-P8C"/>
                         <outlet property="imageView" destination="311-S7-YFG" id="kvb-k0-x1A"/>
                     </connections>
                 </viewController>
